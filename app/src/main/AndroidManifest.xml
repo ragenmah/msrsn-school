@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.ragenmah99.msrsnproject">
+
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <!--<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>-->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <!--<activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            -->
+        <activity
+            android:name="com.example.ragenmah99.msrsnproject.SplashScreen"
+            tools:node="merge"
+            android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name="com.example.ragenmah99.msrsnproject.MainActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity
+            android:name=".Login"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Contact"
+            android:label="Contact"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Home" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.example.ragenmah99.msrsnproject.Register"
+
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.example.ragenmah99.msrsnproject.Registeration"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".Register_btn_clicked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Notes"
+            android:label="Notes"
+            android:screenOrientation="portrait" />
+        <activity android:name=".OldQuestions"
+            android:label="Old Questions"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Syllabus"
+            android:label="Syllabus"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Books"
+            android:label="Books"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Miscellenous"
+            android:label="Miscellenous"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Civil_notes" />
+        <activity android:name=".ComputerEng_notes"
+            android:label="Notes"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ComputerEng_questions"
+            android:label="Old Questions"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ComputerEng_syllabus"
+            android:label="Syllabus"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".ElexComm_notes" />
+        <activity
+            android:name=".MyIntro"
+            android:theme="@style/AppTheme.NoActionBar"
+
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".First_Sem_Computer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Second_Sem_Computer" />
+        <activity android:name=".Sixth_Sem_Computer" />
+        <activity android:name=".Seventh_Sem_Computer" />
+        <activity
+            android:name=".login_btn_clicked"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".OldQuestion_main"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Question_PDFActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Misc_main"
+            android:label="Miscellenous"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Misc_PDFActivity"
+            android:label="Miscellenous"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Notes_main"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Notes_PDFActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Syllabus_main"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Syllabus_PDFActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Contact_main"
+            android:label="Contact"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".semester1notes"
+            android:label="First Semester"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".semester2notes"
+            android:label="Second Semester"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".semester3notes"
+            android:label="Third Semester"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".semester4notes"
+            android:label="Fourth Semester"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".semester5notes"
+            android:label="Fifth Semester"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".semester6notes"
+            android:label="Sixth Semester"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".semester7notes"
+            android:label="Seventh Semester"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".semester8notes"
+            android:label="Eighth Semester"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".semester1oldquestion"
+            android:label="First Semester"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".semester2oldquestion"
+            android:label="Second Semester"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".semester3oldquestion"
+            android:label="Third Semester"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".semester4oldquestion"
+            android:label="Fourth Semester"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".semester5oldquestion"
+            android:label="Fifth Semester"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".semester6oldquestion"
+            android:label="Sixth Semester"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".semester7oldquestion"
+            android:label="Seventh Semester"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".semester8oldquestion"
+            android:label="Eighth Semester"
+            android:screenOrientation="portrait"/>
+
+
+        <activity android:name=".semester1syllabus"
+            android:label="First Semester"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".semester2syllabus"
+            android:label="Second Semester"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".semester3syllabus"
+            android:label="Third Semester"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".semester4syllabus"
+            android:label="Fourth Semester"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".semester5syllabus"
+            android:label="Fifth Semester"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".semester6syllabus"
+            android:label="Sixth Semester"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".semester7syllabus"
+            android:label="Seventh Semester"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".semester8syllabus"
+            android:label="Eighth Semester"
+            android:screenOrientation="portrait"/>
+        <!--<meta-data-->
+            <!--android:name="com.google.android.gms.version"-->
+            <!--android:value="4030500" />-->
+
+    </application>
+
+
+</manifest>

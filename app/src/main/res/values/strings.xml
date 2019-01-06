@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">MSRSN School</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="semesters">
+        <item>FIRST SEMESTER</item>
+        <item>SECOND SEMESTER</item>
+        <item>THIRD SEMESTER</item>
+        <item>FOURTH SEMESTER</item>
+        <item>FIFTH SEMESTER</item>
+        <item>SIXTH SEMESTER</item>
+        <item>SEVENTH SEMESTER</item>
+        <item>EIGHTH SEMESTER</item>
+
+    </string-array>
+
+
+    <string-array name="university">
+
+        <item>PURBANCHAL UNIVERSITY</item>
+        <item>TRIBHUWAN UNIVERSITY</item>
+        <item>KATHMANDU UNIVERSITY</item>
+        <item>POKHARA UNIVERSITY</item>
+
+    </string-array>
+
+    <string-array name="faculty">
+
+        <item>SCIENCE AND TECHNOLOGY</item>
+        <item>MANAGEMENT</item>
+        <item>ARTS</item>
+        <item>EDUCATION</item>
+        <item>LAW</item>
+        <item>MEDICAL ANS ALLIED SCIENCE1</item>
+
+
+    </string-array>
+
+    <string-array name="gender">
+
+        <item>MALE</item>
+        <item>FEMALE</item>
+        <item>OTHER</item>
+
+    </string-array>
+    <string-array name="program">
+
+        <item>BACHELOR IN ARCHITECTURE (B. ARCH.)</item>
+        <item>BACHELOR IN CIVIL ENGINEERING</item>
+        <item>BACHELOR IN COMPUTER ENGINEERING</item>
+        <item>BACHELOR IN ELECTRICAL ENGINEERING</item>
+        <item>BACHELOR IN ELECTRONCS &amp; COMMUNICATION ENGINEERING</item>
+
+    </string-array>
+
+    <string-array name="doctype">
+        <item>Notes</item>
+        <item>Question Papers</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="team_name">
+        <item>MILAN ADHIKARI</item>
+        <item>SAHAS DANGOL</item>
+        <item>RAGEN MAHARJAN</item>
+        <item>RAJESH BDR. SHRESTHA</item>
+        <item>BIRAJ KHATRI</item>
+        <item>NABIN BIKRAM SAH</item>
+        <item>SAMUNDRA NEUPANE</item>
+
+    </string-array>
+    <string-array name="credit_name">
+        <item>POOJA LOHANI</item>
+        <item>ROZEENA HEGANJU</item>
+
+    </string-array>
+    <string-array name="email">
+        <item>adhirakrimilan604@gmail.com </item>
+        <item>dangolsahas@gmail.com</item>
+        <item>ragenmah99@gmail.com</item>
+        <item>rajeshshrestha555@gmail.com</item>
+        <item>biraz.khatry@gmail.com</item>
+        <item>snabinbikram@gmail.com</item>
+        <item>samundraneupay123@yahoo.com</item>
+
+    </string-array>
+    <!--int[] images = new int[]{R.drawable.milan, R.drawable.sahas,-->
+    <!--R.drawable.ragen, R.drawable.rajesh, R.drawable.milan, R.drawable.milan,R.drawable.milan};-->
+    <string-array name="image_array">
+        <item>R.drawable.milan</item>
+        <item>R.drawable.sahas</item>
+        <item>R.drawable.ragen</item>
+        <item>R.drawable.rajesh</item>
+        <item>R.drawable.milan</item>
+        <item>R.drawable.milan</item>
+        <item>R.drawable.milan</item>
+
+    </string-array>
+    <string-array name="post_name">
+        <item>CEO/Founder</item>
+        <item>CEO/Founder</item>
+        <item>Android Developer</item>
+        <item>Back end developer</item>
+        <item>Front end developer</item>
+        <item>Database manager</item>
+        <item>Sponser</item>
+    </string-array>
+</resources>

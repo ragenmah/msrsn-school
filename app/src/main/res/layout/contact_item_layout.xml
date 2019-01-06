@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--&gt;-->
+    <!--<ListView-->
+        <!--android:id="@+id/list"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:divider="#b5b5b5"-->
+        <!--android:dividerHeight="1dp"-->
+        <!--android:listSelector="@drawable/gradient_bg_hover">-->
+    <!--</ListView>-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="1000dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/logo"
+        ></ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="95dp"
+        android:layout_marginLeft="5dp"
+        android:text=" We MSRSN Group is the group which is intended to provide service to all the people via Information Technology. This is the App related to provides notes for all the students nationwide who are seeking for the Notes, Syllabus, Old Question and their periodic update. We are always ready for help. Do visit our website www.msrsn.com"
+        android:textStyle="bold" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+           android:paddingTop="210dp"
+        android:divider="#b5b5b5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:listSelector="@drawable/gradient_bg_hover"/>
+</RelativeLayout>
+
+</ScrollView>
+<!--</LinearLayout>-->
